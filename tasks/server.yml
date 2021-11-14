@@ -1,5 +1,18 @@
 ---
 
+- name: 'Check mandatory variables are defined'
+  assert:
+    that:
+      - server_application_name is defined
+      - cloudwatch_region is defined
+      - cloudwatch_log_group is defined
+      - user_info_service_endpoint is defined
+      - domain_name is defined
+      - aws_bucket is defined
+      - aws_default_region is defined
+      - aws_secret_access_key is defined
+      - aws_access_key_id is defined
+
 - name: Create the files directory
   file:
     path: "{{ hostvars[inventory_hostname].working_directory }}{{ server_application_name }}/files"
