@@ -11,7 +11,7 @@ collections:
   - community.docker
 
 roles:
-  - src: https://github.com/namelivia/namelivia.gallery
+  - src: https://github.com/namelivia/namelivia.gallery-client
 ```
 
 ## Included tasks
