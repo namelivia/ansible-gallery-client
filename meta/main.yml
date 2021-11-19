@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: ansible-gallery-client
+  role_name: ansible_gallery_client
   author: José Ignacio Amelivia Santiago <jignacio.amelivia@gmail.com>
   description: Ansible role I use to install and configure namelivia/gallery-client
   license: GPLv2
