@@ -18,3 +18,4 @@ roles:
 
  - `gallery_api_endpoint` API endpoint for connecting the client to the server API.
  - `loki_url` Loki endpoint to send logs.
+ - `host_port` Port to be mapped in the host machine.
